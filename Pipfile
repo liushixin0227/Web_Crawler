@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+selenium = "*"
+chromedriver = "*"
+aiohttp = "*"
+cchardet = "*"
+aiodns = "*"
+lxml = "*"
+"beautifulsoup4" = "*"
+pyquery = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
