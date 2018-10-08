@@ -19,7 +19,6 @@ pymysql = "*"
 pymongo = "*"
 redis = "*"
 flask = "*"
-pycurl = "*"
 pyspider = "*"
 pipenv = "*"
 scrapy = "*"
@@ -30,9 +29,10 @@ scrapyd-client = "*"
 python-scrapyd-api = "*"
 scrapyrt = "*"
 gerapy = "*"
-tornado = "==5.1"
+pycurl = "*"
+tornado = "==4.5.3"
 
 [dev-packages]
 
 [requires]
-python_version = "3.7"
+python_version = "3.6"
